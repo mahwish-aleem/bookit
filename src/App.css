@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+input {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  padding-left: 10px;
+  align-items: center;
+  margin: auto;
+  display: block;
+}
+
+label {
+  width: 300px;
+  height: 30px;
+  font-size: 22.5px;
+}
+
+button {
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 37%;
+  border-radius: 8px;
+  font-size: 18px;
+  display: block;
+  /* display: inline-block; */
+  background: rgb(236, 184, 135);
+}
+
+button:active {
+  box-shadow: 0 2px rgb(31, 24, 21);
+  transform: translateY(4px);
+}
+
+button:hover {
+  cursor: pointer;
+  background: rgb(243, 159, 80);
+}
