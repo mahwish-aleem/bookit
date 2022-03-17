@@ -1,0 +1,44 @@
+[debug] [2022-03-16T09:55:07.285Z] ----------------------------------------------------------------------
+[debug] [2022-03-16T09:55:07.287Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sarah\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-03-16T09:55:07.287Z] CLI Version:   10.2.2
+[debug] [2022-03-16T09:55:07.288Z] Platform:      win32
+[debug] [2022-03-16T09:55:07.288Z] Node Version:  v16.13.0
+[debug] [2022-03-16T09:55:07.289Z] Time:          Wed Mar 16 2022 14:55:07 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-03-16T09:55:07.289Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-16T09:55:07.368Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-16T09:55:07.369Z] > authorizing via signed-in user (sarahtanveer99@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-03-16T09:55:07.401Z] [hub] writing locator at C:\Users\sarah\AppData\Local\Temp\hub-bookit-78f07.json
+[debug] [2022-03-16T09:55:07.762Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/bookit-78f07/sites 
+[debug] [2022-03-16T09:55:09.251Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/bookit-78f07/sites 200
+[debug] [2022-03-16T09:55:09.252Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/bookit-78f07/sites {"sites":[{"name":"projects/164125292688/sites/bookit-78f07","defaultUrl":"https://bookit-78f07.web.app","appId":"1:164125292688:web:1243f58de5673b4bca4015","type":"DEFAULT_SITE"}]}
+[debug] [2022-03-16T09:55:09.252Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bookit-78f07/webApps/1:164125292688:web:1243f58de5673b4bca4015/config [none]
+[debug] [2022-03-16T09:55:10.814Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bookit-78f07/webApps/1:164125292688:web:1243f58de5673b4bca4015/config 200
+[debug] [2022-03-16T09:55:10.814Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bookit-78f07/webApps/1:164125292688:web:1243f58de5673b4bca4015/config {"projectId":"bookit-78f07","appId":"1:164125292688:web:1243f58de5673b4bca4015","databaseURL":"https://bookit-78f07-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"bookit-78f07.appspot.com","locationId":"asia-south1","apiKey":"AIzaSyBQ3dhKN4iQPOK3WwU0-T8naD9_G4ihOwo","authDomain":"bookit-78f07.firebaseapp.com","messagingSenderId":"164125292688","measurementId":"G-ZY2R17DPCY"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [16/Mar/2022:09:55:17 +0000] "GET /static/css/main.a0fbf378.css HTTP/1.1" 200 980 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Mar/2022:09:55:17 +0000] \"GET /static/css/main.a0fbf378.css HTTP/1.1\" 200 980 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Mar/2022:09:55:17 +0000] "GET /static/js/main.b5377fe1.js HTTP/1.1" 200 142670 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Mar/2022:09:55:17 +0000] \"GET /static/js/main.b5377fe1.js HTTP/1.1\" 200 142670 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Mar/2022:09:55:17 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Mar/2022:09:55:17 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Mar/2022:09:55:40 +0000] "GET /signup HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Mar/2022:09:55:40 +0000] \"GET /signup HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Mar/2022:14:23:40 +0000] "GET /static/css/main.a0fbf378.css HTTP/1.1" 200 980 "http://localhost:5000/signup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Mar/2022:14:23:40 +0000] \"GET /static/css/main.a0fbf378.css HTTP/1.1\" 200 980 \"http://localhost:5000/signup\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Mar/2022:14:23:40 +0000] "GET /static/js/main.b5377fe1.js HTTP/1.1" 200 142670 "http://localhost:5000/signup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Mar/2022:14:23:40 +0000] \"GET /static/js/main.b5377fe1.js HTTP/1.1\" 200 142670 \"http://localhost:5000/signup\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [16/Mar/2022:14:23:40 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://localhost:5000/signup" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Mar/2022:14:23:40 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://localhost:5000/signup\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36\""}}
+[debug] [2022-03-16T19:41:42.806Z] Received signal SIGHUP 1

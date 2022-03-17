@@ -3,19 +3,17 @@
 // const password = document.getElementById("password") ;
 import React from 'react'
 
-function SignUp(){
+function LogIn(){
     return (
         <div>
-            SIGN UP
+            LOGIN
             <main>
             <form>
                 <label for="username">Username</label>
                 <input type="text" name="username" id="username"></input>
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email"></input>
                 <label for="password">Password</label>
                 <input type="text" name="password" id="password"></input>
-                <button id="addBtn"> Sign Up</button>
+                <button id="addBtn"> Log In</button>
             </form>
         </main>
         </div>
@@ -23,4 +21,4 @@ function SignUp(){
 }
 
 
-export default SignUp;
+export default LogIn;
